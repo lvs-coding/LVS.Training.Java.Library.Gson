@@ -4,8 +4,8 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 
-public class TranslationObserver implements PropertyChangeListener {
-	public TranslationObserver(FileTranslation translationModel) {
+public class WordTranslationObserver implements PropertyChangeListener {
+	public WordTranslationObserver(WordTranslation translationModel) {
 		translationModel.addChangeListener(this);
 	}
 

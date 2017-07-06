@@ -14,7 +14,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class FileTranslation {
+public class WordTranslation {
 	public static final String TRANSLATIONS = "translations";
 	private static final String BASE_URL = "http://deu.hablaa.com/hs/translation/";
 	private List<PropertyChangeListener> listener = new ArrayList<PropertyChangeListener>();

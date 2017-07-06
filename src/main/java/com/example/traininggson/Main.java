@@ -8,9 +8,9 @@ public class Main    {
 		//TranslationRequest request = new TranslationRequest();
 		//request.translate("sắt", "vie", "eng");
 		
-		FileTranslation fileTranslation = new FileTranslation();
-		TranslationObserver myObserver = new TranslationObserver(fileTranslation);
-		fileTranslation.translate("sắt", "vie", "eng");
+		WordTranslation wordTranslation = new WordTranslation();
+		WordTranslationObserver myObserver = new WordTranslationObserver(wordTranslation);
+		wordTranslation.translate("sắt", "vie", "eng");
 		
 		
 		
