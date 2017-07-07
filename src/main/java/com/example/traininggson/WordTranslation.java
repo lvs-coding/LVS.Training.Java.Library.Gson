@@ -51,7 +51,6 @@ public class WordTranslation {
 			                     .build();
 			
 			
-			// Get a handler that can be used to post to the main thread
 			client.newCall(request).enqueue(new Callback() {
 			    @Override
 			    public void onFailure(Call call, IOException e) {
